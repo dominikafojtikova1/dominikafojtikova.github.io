@@ -1,0 +1,385 @@
+body {
+	margin: 0;
+}
+
+* {
+	-webkit-font-smoothing: antialiased;
+
+
+}
+
+a:link {
+color: black;
+}
+a:visited {
+color: black;
+}
+a:hover {
+color: black;
+}
+
+.anim{
+    position: fixed;
+
+	margin-top: 492px;
+    margin-left: 240;
+    font-size: 1.1vw;
+ 	height: 4.9vh;   
+    color: black;
+
+
+
+
+
+}
+
+#fran {
+
+    top: 106px;
+    font-family: 'BC Sklonar';
+	color: black;
+
+}
+
+#best {
+
+    top: 76px;
+    font-family: 'BC Sklonar';
+	color: black;
+
+}
+
+#mul {
+
+    top: 44px;
+    font-family: 'BC Sklonar';
+	color: black;
+
+}
+
+
+
+#demo {
+	position: absolute;
+	top:67;
+	right: 215;
+    z-index: 12;
+	cursor: hand;
+    font-family: 'BC Sklonar';
+    font-size: 1.4vw;
+    margin: 10;
+
+	color: #b3b3b3;
+
+	display: block;
+}
+
+#demo1 {
+	position: absolute;
+	top:31;
+	right: 225;
+    z-index: 12;
+	cursor: hand;
+    font-family: 'BC Sklonar';
+    font-size: 1.4vw;
+
+	color: #b3b3b3;
+}
+
+
+#if {
+    top: 12px;
+	z-index: 0;
+    font-family: 'BC Sklonar';
+        left: 20px;
+
+}
+
+a {
+	text-decoration: none;
+}
+
+
+#mic {
+    font-family: 'BC Sklonar';
+    top: -20px;
+    left: 20px;
+}
+
+
+
+#cam {
+
+    font-family: 'BC Sklonar';
+    top: -52px;
+    right: 20px;
+}
+
+
+
+#free {
+    font-family: 'BC Sklonar';
+    top: -116px;
+    left: 20px;
+}
+
+
+
+#time {
+    font-family: 'BC Sklonar';
+    right: 20px;
+    top: -148px;
+}
+
+
+
+#aspen {
+    top: -180px;
+    font-family: 'BC Sklonar';
+    left: 20px;
+}
+
+
+
+#carven {
+    top: -84px;
+    right: 20px;
+    font-family: 'BC Sklonar';
+
+
+}
+
+
+#american {
+    left: 20px;
+    top: -212px;
+    font-family: 'BC Sklonar';
+
+}
+
+
+
+#naked {
+    right: 20px;
+    top: -244px;
+    font-family: 'BC Sklonar';
+
+}
+
+
+#peter {
+    left: 20px;
+    top: -276px;
+    font-family: 'BC Sklonar';
+
+}
+
+
+
+#excel {
+
+    top: -308px;
+    right: 20px;
+    font-family: 'BC Sklonar';
+	
+
+}
+
+#real {
+    top: -340px;
+    left: 20px;
+    font-family: 'BC Sklonar';
+
+}
+
+
+
+#year {
+    position: fixed;
+	left: 800;
+    top:150;
+
+}
+
+#year .year  {
+    font-family: 'Times';
+	font-size: 1.2vw;
+	color: #b3b3b3;
+	cursor: pointer;
+	width: 100%;
+	height: 4.4vh;
+
+	
+
+}
+
+#format {
+    position: fixed;
+	top: 150;
+	left: 600;
+
+}
+
+#format .format  {
+    font-family: 'Times';
+	font-size: 1.3vw;
+	color: black;
+	height: 31.9px;
+	cursor: pointer;
+
+	
+
+}
+
+
+
+
+
+
+.content {
+	position: fixed;
+	max-width: 900px;
+	margin: 0 auto;
+	top: 0px;	
+	border: 1px solid white;
+
+}
+
+/* overview nav */
+
+.overview {
+	-webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+
+
+	max-width: 80%;
+	background-color: grey;
+	border: 1px solid black;
+
+}
+
+
+
+/* scrollable section */
+
+/* 	This is a div with a height slightly larger than the <section> height: 420px.  
+	Overflow is set to auto, so it will show a scrollbar when the content is larger than this div.
+	However, the scrollbar will not be visible because it falls below the lower border of the <section> that containts it */
+.scrollbarhide {
+	height: 390px;
+	overflow: scroll;	
+
+
+}
+
+/* 	This is the scrollable content. It has a width that is much larger than the browser/viewport/screen width,
+	so that it is scrollable */
+.scroller {
+	width: 6500px;
+	height: 390px;
+
+
+}
+
+
+
+.image-item {
+	float: left;
+	height: 300px;
+	margin-top: : 6px;
+	margin : 10px;
+	position: relative;
+
+
+}
+
+.image-item p {
+	position: absolute;
+
+	right: 15px;
+	color:white;
+	display: none;
+
+}
+
+.image-item img {
+	margin : 10px;
+	max-height: 120%;
+}
+
+
+
+.detail {
+
+	padding: 1px;
+	position: fixed;
+	top: 100px;
+	background-color: white;
+	display: none;
+    right:100px; 
+	height: 390px;
+	width: 1000px;
+    background-color: transparent ;
+
+}
+
+
+
+
+.close-button {
+    background: url("button.close.png");
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	right: 2px;
+    margin-top: 5px;
+    top:-20;
+	border: 1px solid rgba(255,255,255,0);
+	cursor: pointer;
+	background-size: cover;
+
+}
+
+.close-button:hover {
+	border: 3px solid yellow;
+
+}
+
+
+.ul {
+
+	position: relative;
+    list-style-type: none;
+    margin: 10;
+    padding: 0;
+}
+
+li {
+    position: relative;
+    display: inline;
+    top: 33.5px;
+    margin: 10;
+    font-family: 'BC Sklonar';
+	font-size: 1.3vw;
+}
+
+
+#content-carven {
+	height: 790px;
+
+}
+
+#content-carven .scroller {
+	height: 790px;
+
+}
+
+#content-carven .scrollbarhide {
+	height: 790px;
+	overflow: auto;	
+}
+
+
+
+
